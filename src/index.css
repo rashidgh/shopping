@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* !NavBar MediaQuery */
+@media screen and (max-width: 1000px) {
+
+  #logo {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  #auth {
+    margin-right: 50px;
+  }
+
+  #menuBlock>ul {
+    display: none;
+  }
+
+  #carosel {
+    display: none;
+  }
+
+
+  #search {
+    display: block;
+  }
+
+  #topNav {
+    background: #2a20ea;
+    color: #fff;
+    width: 110vw;
+  }
+
+  #searchBar {
+    display: none;
+  }
+
+  #cart {
+    color: #fff;
+  }
+
+  #div01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #inp {
+    width: 150px;
+  }
+
+  #ul {
+    display: none;
+  }
+
+  #div02 {
+    margin-top: -15px;
+  }
+
+  #img {
+    display: none;
+  }
+
+  #extimg {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+  }
+
+  #user {
+    display: block;
+    font-size: 40px;
+    margin-left: 5px;
+    color: #fff;
+  }
+
+  #userPic {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  #search {
+    display: none;
+  }
+
+  #logo {
+    display: block;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #extimg {
+    display: none;
+  }
+
+  #user {
+    display: none;
+
+  }
+
+  #userPic {
+    display: block;
+  }
+}

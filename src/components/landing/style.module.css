@@ -1,0 +1,229 @@
+#mainPageContainer {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 5vh;
+}
+
+#mainPageContainer>article {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* side bar */
+.sideBarContainer {
+  background-color: #eef4ff;
+  width: 20%;
+}
+
+.mainPageContainer {
+  background-color: #ffffff;
+  width: 80%;
+  padding: 5px;
+}
+
+.backButton {
+  background-color: #fff;
+  border: none;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.filterHead {
+  padding: 5px;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.clearFilterButton {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 8px 31%;
+  color: gray;
+  border: 2px solid gray;
+  margin-top: 1em;
+  font-size: 1em;
+}
+
+.filterHolders {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  align-items: center;
+  margin-bottom: 0.6em;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.filterHolders>span {
+  font-size: 0.9em;
+}
+
+.colorContain {
+  width: 100%;
+}
+
+.colorContain>button:first-child {
+  background-color: #111;
+  border-radius: 50%;
+  padding: 15px;
+  margin-right: 4%;
+}
+
+.colorContain>button:last-child {
+  padding: 15px;
+  background-color: red;
+  border-radius: 50%;
+  border-color: transparent;
+  outline-offset: 3px;
+  outline: 3px solid blue;
+}
+
+.applyFilterButton {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 10px 23%;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+.allBrandsBtn {
+  border-radius: 30px;
+  background-color: transparent;
+  color: gray;
+  padding: 7px 28%;
+  border: 2px solid gray;
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.brandsName {
+  width: 48%;
+  padding: 15px 3px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* main page */
+.mainButtons {
+  background-color: transparent;
+  border: 2px solid rgb(201, 201, 201);
+  margin-right: 2%;
+  padding: 10px 20px;
+}
+
+.secondHead {
+  width: 100%;
+  margin: 10px 0px;
+  display: flex;
+}
+
+.secondHead>button {
+  background-color: transparent;
+  padding: 0px 30px;
+  border: 2px solid rgb(203, 203, 203);
+  margin-right: 15px;
+  text-transform: uppercase;
+  height: 40px;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+}
+
+.secondHead>button>span {
+  font-weight: lighter;
+  color: rgb(173, 173, 173);
+}
+
+.loadMoreBtn {
+  border: 2px solid rgb(169, 169, 169);
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: medium;
+  margin-top: 5%;
+  cursor: pointer;
+  color: rgb(169, 169, 169);
+  font-weight: bold;
+}
+
+.mobileViewQuantity {
+  display: none;
+}
+
+.filterForMobile {
+  display: none;
+}
+
+.sideBarDownForMobile {
+  display: none;
+}
+
+.sideBarDownForMobileImg {
+  display: none;
+}
+
+/* media queries */
+@media (max-width:720px) {
+
+  #mainPageContainer {
+    width: 98%;
+  }
+
+  .mainPageContainer {
+    width: 100%;
+  }
+
+  .sideBarContainer {
+    display: none;
+  }
+
+  .breadCrunch {
+    font-size: 0.6em !important;
+  }
+
+  .headMainBlock {
+    display: none !important;
+  }
+
+  .secondHead {
+    display: none;
+  }
+
+  .mobileViewQuantity {
+    display: block;
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  .mainButtons1 {
+    background-color: transparent;
+    border: 2px solid rgb(201, 201, 201);
+    margin-right: 2%;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+  }
+
+  .filterForMobile {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sideBarDownForMobile {
+    display: block;
+    background-color: #eef4ff;
+    width: 96%;
+    margin-bottom: 10px;
+  }
+
+  .sideBarDownForMobileImg {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}

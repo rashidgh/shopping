@@ -1,0 +1,8 @@
+.carosel{
+    width: 80%;
+    margin: 0 auto;
+}
+.carosel>img {
+    height: 120px;
+    width: 100%;
+}
